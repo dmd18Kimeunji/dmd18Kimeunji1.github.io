@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework #3</title>
+    
+    <style>
+ * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body { font-family: '나눔스퀘어', 'Apple SD Gothic Neo', sans-serif; }
+        
+/*        헤더*/
+        header {
+            max-width: 1920px;
+            padding-bottom: 90px;
+/*            border-bottom: 1px solid #dddddd;*/
+        }
+        
+/*        사이트 이름*/
+        #headA #headA_h1 a {
+            font-family: 'Eras ITC';
+            display: inline-block;
+            line-height: 100px;
+            margin-left: 30px;
+            color: #a3a3ff;
+            font-size: 40px;
+            text-decoration: none;
+        }
+        
+        #headA #headA_h1 a:hover {
+/*            background-color: #fffdc7;*/
+            color: #fffdc7;
+        }
+        
+        #headA {
+            max-width: 1980px;
+            float: left;
+        }
+        
+        #headC {
+            float: right;
+
+        }
+        
+/*        메인 메뉴*/
+        
+        #main_menu {
+            position:relative;
+/*            top:30px;*/
+            font-size:15px;
+            color:#ffffff;
+/*            background-color:#6ac5fd;	*/
+/*            margin-top:15px;*/
+            margin-right: 18px;
+            padding:12px;
+        }
+        
+        #main_menu ul {
+            margin: 0;
+            padding: 0;
+            margin-top: 10px;
+        }
+        
+        #main_menu li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 0px 0px 0px 0px;
+            margin-top: 18px;
+        }
+        
+        #main_menu li a {
+            text-decoration: none;
+            color: #000000;
+            padding: 10px;
+        }
+        
+        #main_menu a:hover {
+            color: #a3a3ff;
+            background-color: #fffcd2;
+        }
+        
+        
+/*        사이트 링크 주소 처리*/
+        .site {
+            text-decoration: none;
+            color: #888888;
+            font-weight: bold;
+        }
+        
+        .site:hover {
+            text-decoration: underline;
+        }
+        
+/*        저작권*/
+        #footer {
+            border-top: 1px solid #dddddd;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+        
+        #footer p {
+            font-size: 17px;
+            color: #666666;
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+        
+        #footer span {
+            font-size: 12px;
+            font-weight: normal;
+            margin-left: 40px;
+        }
+        
+/*        float 해제*/
+        .clear {
+            clear: both;
+        }
+        
+        /*         본문 제목*/
+        .conB {
+            margin:28px auto 0;
+            max-width: 1100px;
+            text-align: left;
+            line-height: 30px;
+        }
+        
+/*        본문 내용 배치*/
+        #wrapper {
+            max-width: 1100px;
+            margin: 0 auto;
+            margin-top: 53px;
+            padding-bottom: 20px;
+            line-height: 25px;
+        }
+ 
+        .conC h1 {
+            font-size: 40px;
+            padding-top: 50px;
+        }
+        
+/*        profile CSS*/
+        #headA h1 {
+            color: #a3a3ff;
+            font-family: 'Eras ITC';
+            font-size: 60px;
+            text-align: center;
+            margin: 20px;
+        }
+        h2 {
+            color: #000000;
+            font-size: 20px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+
+        #logo {
+            text-align: center;
+            margin: 30px;
+        }
+        #img_main {
+            border: 1px solid #ffffff;
+            width: 300px;
+            height: 300px;
+            border-radius: 10%;
+        }
+        
+        #main {
+            text-align: center;
+            color: #464646;
+            margin: 10px;
+        }
+        #content {
+            border: 2px dotted #a3a3ff;
+            padding: 20px;
+            margin-bottom: 200px;
+            background-color: #e1e1ff;
+            margin: 20px;
+            margin-left: 100px;
+            margin-right: 100px;
+            
+        }
+        #content p {
+            font-size: 16px;
+        }
+
+        
+    </style>
+    
+</head>
+<body>
+        
+<!--        헤더-->
+         <header>
+            <div id="headA">
+                <h1 id="headA_h1"><a href="index.html" class="site">K!m Eun J!</a></h1>
+            </div>
+            <br>
+            <br>
+            <div id="headC">
+                <ul id="main_menu">
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="hw01.html">HW01</a></li>
+                    <li><a href="hw02.html">HW02</a></li>
+                    <li><a href="hw03.html">HW03</a></li>
+                    <li><a href="hw04.html">HW04</a></li>
+                    <li><a href="hw05.html">HW05</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </div>
+        </header> 
+          <div class="clear"></div>
+          
+           <!--  본문제목-->
+          <section class="conB">
+              <div class="container">
+                  <div class="text">
+                      <p>콘텐츠 프로그래밍 과제 03</p>
+                      <span>대마도 여행</span>
+                  </div>
+              </div>
+          </section>
+          <br>
+          <br>
+          
+<!--          본문-->
+           <div id="wrapper">
+       <h1>대마도 여행!</h1>
+           <br>
+           <hr>
+           <br>
+           <ul><h2>목차</h2>
+           <li>대마도</li>
+           <li>가볼만한 곳</li>
+           <li>해보고싶은 것</li>
+           <li>여행 일정</li>
+           </ul>
+           <br>
+           <br>
+           <hr>
+           <br>
+           <h2>대마도</h2>
+           <br>
+           <img src="./img/%EB%8C%80%EB%A7%88%EB%8F%84%EC%A7%80%EB%8F%84.jpg" width="400" height="600" alt="">
+           <br>
+           <br>
+           <br>쓰시마는 일본에서 한반도와 가장 가까운 지역으로 섬 전체가 쓰시마시에 속한다. 
+           <br>시 아래 6개읍(이즈하라, 미쯔시마, 도요타마, 미네, 가미아가타, 가미쯔시마)이 있고, 이즈하라에 쓰시마시청이 있다. 
+           <br>중앙부의 아소만과 인공적으로 굴착된 만제키세토에 의해 상·하 두 섬으로 나뉜다. 
+           <br>섬 전체가 해발고도 400m 내외의 산지이고, 산지의 계곡들은 곡벽이 험준하다.
+           <br>
+           <br><a href="https://terms.naver.com/entry.nhn?docId=1120202&cid=40942&categoryId=33293" target="_blank">출처 네이버 지식백과</a>
+           <br>
+           <br>
+           <br>
+           <br>
+           <hr>
+           <br>
+           <h2>대마도에서 가볼만한 곳</h2>
+           <br>
+           <br>
+
+        <table border="1" style="width:50%">
+        <tr>
+           <th colspan="2">대마도에서 가볼만한 곳</th>
+        </tr>
+        <tr>
+           <td><center>미우다 해변</center></td>
+           <td><center><img src="./img/%EB%AF%B8%EC%9A%B0%EB%8B%A4%ED%95%B4%EB%B3%80.jpg" width="400" height="250"></center></td>
+        </tr>
+        <tr>
+           <td><center>한국 전망대</center></td>
+           <td><center><img src="./img/%ED%95%9C%EA%B5%AD%EC%A0%84%EB%A7%9D%EB%8C%80.jpg" width="430" height="350"></center></td>
+        </tr>
+        <tr>
+           <td><center>밸류마트 <p></p>오우라점</center></td>
+           <td><center><img src="./img/%EB%B0%B8%EB%A5%98%EB%A7%88%ED%8A%B8.jpg" width="450" height="220"></center></td>
+        </tr>
+        <tr>
+           <td><center>에보시타케 <p></p>전망대</center></td>
+           <td><center><img src="./img/%EC%97%90%EB%B3%B4%EC%8B%9C%ED%83%80%EC%BC%80%EC%A0%84%EB%A7%9D%EB%8C%80.jpg"/ width="450" height="250"></center></td>
+        </tr>
+        <tr>
+           <td><center>와타츠미 신사</center></td>
+           <td><center><img src="./img/%EC%99%80%ED%83%80%EC%B8%A0%EB%AF%B8%EC%8B%A0%EC%82%AC.jpg" width="450" height="320"></center></td>
+        </tr>
+        <tr>
+           <td><center>드럭스토어 모리 <p></p>미쓰시마점</center></td>
+           <td><center><img src="./img/%EB%93%9C%EB%9F%AD%EC%8A%A4%ED%86%A0%EC%96%B4.jpg" width="450" height="300"></center></td>
+           </tr>
+        </table>
+
+        <br>
+        <a href="https://blog.naver.com/bjc_zip/221337548520" target="_blank">출처 네이버 블로그</a>
+        <br>
+        <br>
+        <br> <h3>그외 가볼만한 곳</h3>
+        <li><a href="http://naver.me/GWGXpiRX" target="_blank">여행 능력자들</a></li>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <h2>대마도에서 해보고 싶은 것</h2>
+            <section> 
+            <article> 
+            <ol> 
+            <li>자전거 타기</li>
+            <li>기모노 입어보기</li> 
+            <li>편의점에서 매우 많이 사기</li> 
+            <li>스시 많이 먹기</li> 
+            </ol> 
+            </article>
+            </section>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <h2>여행 일정</h2>
+        <br>
+
+        <table border="1" style="width:35%">
+        <tr>
+        <th colspan="2">대마도 여행 일정</th>
+        </tr>
+        <tr>
+            <td rowspan="7"><center><b>DAY 1</b></center></td>
+            <td><center>부산→대마도</center></td>
+        </tr>
+        <tr>
+            <td><center>시마이 플라워샵</center></td>
+        </tr>
+        <tr>
+            <td><center>야에 식당</center></td>
+        </tr>
+         <tr>
+            <td><center>미우다 해변</center></td>
+        </tr>
+         <tr>
+            <td><center>한국 전망대</center></td>
+        </tr>
+         <tr>
+            <td><center>밸류 마트</center></td>
+        </tr>
+        <tr>
+            <td><center>카미소 호텔</center></td>
+        </tr>
+        <tr>
+            <td rowspan="9"><center><b>DAY 2</b></center></td>
+        </tr>
+        <tr>
+            <td><center>히타카츠 항</center></td>
+        </tr>
+        <tr>
+            <td><center>콘피라에비스 신사</center></td>
+        </tr>
+        <tr>
+            <td><center>카이칸 식당</center></td>
+        </tr>
+        <tr>
+            <td><center>호만지</center></td>
+        </tr>
+        <tr>
+            <td><center>동네 구경하기</center></td>
+        </tr>
+        <tr>
+            <td><center>포엠 베이커리</center></td>
+        </tr>
+         <tr>
+            <td><center>미니 밸류마트</center></td>
+        </tr>
+        <tr>
+            <td><center>대마도→부산</center></td>
+        </tr>
+        </table>
+
+        <br><a href="http://naver.me/GWGXpiRX" target="_blank">출처 여행 능력자들</a>
+            </div>
+            
+             <!--저작권-->
+        <footer>
+            <div id="footer">
+                <p>
+                    Copyright &copy; <a href="index.html" class="site">ejkim</a> All rights reserved.
+                </p>
+                <span>EMAIL : ouo3_16@naver.com</span>
+            </div>
+        </footer>
+</body>
+</html>
