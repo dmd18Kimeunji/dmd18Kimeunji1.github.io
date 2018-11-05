@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework #1</title>
+    
+    <style>
+         * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body { font-family: '나눔스퀘어', 'Apple SD Gothic Neo', sans-serif; }
+        
+/*        헤더*/
+        header {
+            max-width: 1920px;
+            padding-bottom: 80px;
+            margin-bottom: 50px;
+/*            border-bottom: 1px solid #dddddd;*/
+        }
+        
+/*        사이트 이름*/
+        #headA #headA_h1 a {
+            font-family: 'Eras ITC';
+            display: inline-block;
+            line-height: 100px;
+            margin-left: 30px;
+            color: #a3a3ff;
+            font-size: 40px;
+            text-decoration: none;
+        }
+        
+        #headA #headA_h1 a:hover {
+/*            background-color: #fffdc7;*/
+            color: #fffdc7;
+        }
+        
+        #headA {
+            max-width: 1920px;
+            float: left;
+        }
+        
+        #headC {
+            float: right;
+
+        }
+        
+/*        메인 메뉴*/
+        
+        #main_menu {
+            position:relative;
+/*            top:30px;*/
+            font-size:15px;
+            color:#ffffff;
+/*            background-color:#6ac5fd;	*/
+/*            margin-top:15px;*/
+            margin-right: 18px;
+            padding:12px;
+        }
+        
+        #main_menu ul {
+            margin: 0;
+            padding: 0;
+            margin-top: 10px;
+        }
+        
+        #main_menu li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 0px 0px 0px 0px;
+            margin-top: 18px;
+        }
+        
+        #main_menu li a {
+            text-decoration: none;
+            color: #000000;
+            padding: 10px;
+        }
+        
+        #main_menu a:hover {
+            color: #a3a3ff;
+            background-color: #fffcd2;
+        }
+        
+        
+/*        사이트 링크 주소 처리*/
+        .site {
+            text-decoration: none;
+            color: #888888;
+            font-weight: bold;
+        }
+        
+        .site:hover {
+            text-decoration: underline;
+        }
+        
+/*        저작권*/
+        #footer {
+            border-top: 1px solid #dddddd;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+        
+        #footer p {
+            font-size: 17px;
+            color: #666666;
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+        
+        #footer span {
+            font-size: 12px;
+            font-weight: normal;
+            margin-left: 40px;
+        }
+        
+/*        float 해제*/
+        .clear {
+            clear: both;
+        }
+        
+        /*         본문 제목*/
+        .conB {
+            margin: 0 auto;
+            max-width: 1100px;
+            text-align: left;
+            line-height: 30px;
+        }
+        
+/*        본문 내용 배치*/
+        #wrapper {
+            max-width: 1100px;
+            margin: 0 auto;
+            margin-top: 53px;
+            padding-bottom: 20px;
+            line-height: 25px;
+            
+        }
+         
+        .conC h1 {
+            font-size: 40px;
+            padding-top: 50px;
+        }
+        
+/*        profile CSS*/
+        #headA h1 {
+            color: #a3a3ff;
+            font-family: 'Eras ITC';
+            font-size: 60px;
+            text-align: center;
+            margin: 20px;
+        }
+        h2 {
+            color: #000000;
+            font-size: 20px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+
+        #logo {
+            text-align: center;
+            margin: 30px;
+        }
+        #img_main {
+            border: 1px solid #ffffff;
+            width: 300px;
+            height: 300px;
+            border-radius: 10%;
+        }
+        
+        #main {
+            text-align: center;
+            color: #464646;
+            margin: 10px;
+        }
+        #content {
+            border: 2px dotted #a3a3ff;
+            padding: 20px;
+            margin-bottom: 200px;
+            background-color: #e1e1ff;
+            margin: 20px;
+            margin-left: 100px;
+            margin-right: 100px;
+            
+        }
+        #content p {
+            font-size: 16px;
+        }
+
+        
+        
+    </style>
+    
+</head>
+
+<body>       
+<!--헤더-->
+        <header>
+            <div id="headA">
+                <h1 id="headA_h1"><a href="index.html" class="site">K!m Eun J!</a></h1>
+            </div>
+            <br>
+            <br>
+            <div id="headC">
+                <ul id="main_menu">
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="hw01.html">HW01</a></li>
+                    <li><a href="hw02.html">HW02</a></li>
+                    <li><a href="hw03.html">HW03</a></li>
+                    <li><a href="hw04.html">HW04</a></li>
+                    <li><a href="hw05.html">HW05</a></li>
+                    <li><a href="hw06.html">HW06</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </div>
+            </header>
+          
+          <div class="clear"></div>
+          
+           <!--  본문제목-->
+          <section class="conB">
+              <div class="container">
+                  <div class="text">
+                      <p>콘텐츠 프로그래밍 과제 01</p>
+                      <span>웹 표준과 웹 접근성</span>
+                  </div>
+              </div>
+          </section>
+          
+<!--          본문-->
+           <br>
+           <br>
+            <div id="wrapper">
+           <h1>1. 웹 표준</h1>
+           <br>
+           <hr>
+           <br>
+           <b><i>* 웹 표준의 정의</i></b>
+           <br>
+           <p></p>월드 와이드 웹의 측면을 서술하고 정의하는 공식 표준이나 다른 기술 규격을 가리키는 일반적인 용어이다.
+           <br>
+           보통 인터넷을 이용할 때 같은 웹페이지라면 어느 브라우저를 사용하는지 여부에 상관없이 그 웹페이지가 똑같이 보이고 정상적으로 작동해야 함을 의미한다. 
+           <p></p>
+           <p></p>
+           <p></p>
+           <br>
+           <b><i>* 웹 표준의 중요성</i></b>
+           <br>
+           산업표준이 왜 존재하는지, 도량형이 왜 존재하는지 생각해 보면 이유가 명확해진다.
+           <br> 
+           산업현장에서 부품들의 표준화가 돼 있지 않으면 업체마다 서로 호환이 되지 않고, 같은 업체에서 생산하는 부품도 품질보장이 되질 않을 것이다. 
+           <br>
+           웹 환경은 본질적으로 '통신'이기 때문에 더욱 더 표준화가 중요해진다. 
+           <br>
+           비표준 '부품'이야 자기네 제품에만 독점적으로 사용할 거라면 크게 상관없지만 웹은 누가 어떤 장치를 어떤 방식으로 사용할지를 제공자가 통제할 수 없기 때문이다.
+           <br>
+           <br>
+           <hr>
+           ( 출처 나무위키 https://namu.wiki/w/%EC%9B%B9%20%ED%91%9C%EC%A4%80 )
+           <br>
+           <br>
+           <br>
+           <h1>2. 웹 접근성</h1>
+           <br>
+           <hr>
+           <br> <b><i>* 웹 접근성의 정의</i></b>
+           <br> 웹접근성은 장애 여부에 상관없이 누구나 원활하게 웹페이지를 이용할 수 있어야 한다는 것을 의미한다.
+           <br> 예를 들어 시각장애인의 경우 화면을 눈으로 볼 수 없기 때문에 그렇지 않은 사람과 같은 방식으로는 웹페이지를 이용할 수 없다.
+           <br> 그래서 '스크린 리더'라는 별도의 소프트웨어를 컴퓨터에 설치해서 인터넷을 이용한다. 스크린 리더는 모니터에 비춰지는 내용을 인식해서 음성, 점자로 출력해주는 역할을 한다.
+           <br> 이처럼 장애가 있는 경우에도 웹페이지를 원활하게 이용할 수 있도록 지켜야 하는 사항을 웹접근성이라고 한다. 
+           <p></p>
+           <br> <b><i>* 웹 접근성의 필요성</i></b>
+           <br>① 누구에게나 동등한 기회 제공을 위해 웹 접근성 준수 필요
+           <br>② 웹 접근성 보장은 법률에 명시된 의무사항
+           <br>
+           <br>
+           <hr>
+           ( 출처 나무위키 https://namu.wiki/w/%EC%9B%B9%20%ED%91%9C%EC%A4%80 )
+           <br>( 출처 web soul lab http://www.websoul.co.kr/accessibility/necessity.asp )
+               </div>
+           
+           <!--저작권-->
+        <footer>
+            <div id="footer">
+                <p>
+                    Copyright &copy; <a href="index.html" class="site">ejkim</a> All rights reserved.
+                </p>
+                <span>EMAIL : ouo3_16@naver.com</span>
+            </div>
+        </footer>
+</body>
+</html>
