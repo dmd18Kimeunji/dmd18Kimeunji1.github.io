@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    
+    <style>
+         * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body { font-family: '나눔스퀘어', 'Apple SD Gothic Neo', sans-serif; }
+        
+/*        헤더*/
+        header {
+            max-width: 1920px;
+            padding-bottom: 80px;
+            margin-bottom: 50px;
+/*            border-bottom: 1px solid #dddddd;*/
+        }
+        
+/*        사이트 이름*/
+        #headA #headA_h1 a {
+            font-family: 'Eras ITC';
+            display: inline-block;
+            line-height: 100px;
+            margin-left: 30px;
+            color: #a3a3ff;
+            font-size: 40px;
+            text-decoration: none;
+        }
+        
+        #headA #headA_h1 a:hover {
+/*            background-color: #fffdc7;*/
+            color: #fffdc7;
+        }
+        
+        #headA {
+            max-width: 1920px;
+            float: left;
+        }
+        
+        #headC {
+            float: right;
+
+        }
+        
+/*        메인 메뉴*/
+        
+        #main_menu {
+            position:relative;
+/*            top:30px;*/
+            font-size:15px;
+            color:#ffffff;
+/*            background-color:#6ac5fd;	*/
+/*            margin-top:15px;*/
+            margin-right: 18px;
+            padding:12px;
+        }
+        
+        #main_menu ul {
+            margin: 0;
+            padding: 0;
+            margin-top: 10px;
+        }
+        
+        #main_menu li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 0px 0px 0px 0px;
+            margin-top: 18px;
+        }
+        
+        #main_menu li a {
+            text-decoration: none;
+            color: #000000;
+            padding: 10px;
+        }
+        
+        #main_menu a:hover {
+            color: #a3a3ff;
+            background-color: #fffcd2;
+        }
+        
+        
+/*        사이트 링크 주소 처리*/
+        .site {
+            text-decoration: none;
+            color: #888888;
+            font-weight: bold;
+        }
+        
+        .site:hover {
+            text-decoration: underline;
+        }
+        
+/*        저작권*/
+        #footer {
+            border-top: 1px solid #dddddd;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+        
+        #footer p {
+            font-size: 17px;
+            color: #666666;
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+        
+        #footer span {
+            font-size: 12px;
+            font-weight: normal;
+            margin-left: 40px;
+        }
+        
+/*        float 해제*/
+        .clear {
+            clear: both;
+        }
+        
+        /*         본문 제목*/
+        .conB {
+            margin: 0 auto;
+            max-width: 1100px;
+            text-align: left;
+            line-height: 30px;
+        }
+        
+/*        본문 내용 배치*/
+        #wrapper {
+            max-width: 1100px;
+            margin: 0 auto;
+            margin-top: 53px;
+            padding-bottom: 20px;
+            line-height: 25px;
+            
+        }
+         
+        .conC h1 {
+            font-size: 40px;
+            padding-top: 50px;
+        }
+        
+/*        profile CSS*/
+        #headA h1 {
+            color: #a3a3ff;
+            font-family: 'Eras ITC';
+            font-size: 60px;
+            text-align: center;
+            margin: 20px;
+        }
+        h2 {
+            color: #000000;
+            font-size: 20px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+
+        #logo {
+            text-align: center;
+            margin: 30px;
+        }
+        #img_main {
+            border: 1px solid #ffffff;
+            width: 300px;
+            height: 300px;
+            border-radius: 10%;
+        }
+        
+        #main {
+            text-align: center;
+            color: #464646;
+            margin: 10px;
+        }
+        #content {
+            border: 2px dotted #a3a3ff;
+            padding: 20px;
+            margin-bottom: 200px;
+            background-color: #e1e1ff;
+            margin: 20px;
+            margin-left: 100px;
+            margin-right: 100px;
+            
+        }
+        #content p {
+            font-size: 16px;
+        }
+        
+        #img1 {
+            text-align: center;
+        }
+      
+        
+    </style>
+    
+</head>
+
+<body>     
+
+        <!--  헤더  -->
+        <header>
+            <div id="headA">
+                <h1 id="headA_h1"><a href="index.html" class="site">K!m Eun J!</a></h1>
+            </div>
+            <br>
+            <br>
+            <div id="headC">
+                <ul id="main_menu">
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="hw01.html">HW01</a></li>
+                    <li><a href="hw02.html">HW02</a></li>
+                    <li><a href="hw03.html">HW03</a></li>
+                    <li><a href="hw04.html">HW04</a></li>
+                    <li><a href="hw05.html">HW05</a></li>
+                    <li><a href="hw06.html">HW06</a></li>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                </ul>
+            </div>
+            </header>
+          
+          <div class="clear"></div>
+          
+           <!--  본문제목-->
+          <section class="conB">
+              <div class="container">
+                  <div class="text">
+                      <p>포트폴리오</p>
+                      <span>콘텐츠디자인/영상디자인/콘텐츠기획/3D디자인</span>
+                  </div>
+              </div>
+          </section>
+          
+           <br>
+           <br>
+            <div id="wrapper">
+           <h1>1. 콘텐츠 디자인</h1>
+           <br>
+           <hr>
+           <br>
+           <br>
+           <div id="img1"><img src="./img/%EC%BD%98%EB%94%94.jpg" width="500" height="2708">
+           <br>
+           <br>
+           <br>
+           콘텐츠 디자인 수업시간의 과제물입니다.
+           세계적인 디자이너인 프랭크 스텔라를 주제로 제작한 웹페이지입니다. 
+           </div>   
+           <br>
+           <br>
+           <br>
+           <br>
+           <h1>2. 영상 디자인</h1>
+           <br>
+           <hr>
+           <br>
+           <br>
+           <div id="img1"><img src="./img/%EC%98%81%EC%83%811.png" width="500" height="280">
+           <br>
+           <img src="./img/%EC%98%81%EC%83%812.png" width="500" height="280">
+           <br>
+           <img src="./img/%EC%98%81%EC%83%813.png" width="500" height="280">
+           <br>
+           <br>
+           <br>
+           영상 디자인 수업시간의 과제물 캡처이미지입니다.
+           음료수 카프리썬을 광고하는 모션그래픽을 제작하였습니다.
+           </div>   
+           <br>
+           <br>
+           <br>
+           <br>
+           <h1>3. 콘텐츠 기획</h1>
+           <br> 
+           <hr>
+           <br>
+           <br>
+           <div id="img1"><img src="./img/%EA%B8%B0%ED%9A%8D1.PNG" width="300" height="700">
+           <br>
+           <br>
+           <br>
+           콘텐츠 기획 수업시간의 과제물입니다.
+           제주 삼다수 웹사이트 리뉴얼을 기획하였습니다.
+           </div>   
+           <br>
+           <br>
+           <br>
+           <br>
+           <h1>4. 3D 디자인</h1>
+           <br>
+           <hr>
+           <br>
+           <br>
+           <div id="img1"><img src="./img/%EC%93%B8%EB%94%94.jpg" width="500" height="370">
+           <br>
+           <br>
+           <br>
+           3D 디자인 수업시간의 과제물입니다.
+           치약을 모델링하였습니다.
+           </div>   
+               </div>
+           
+           <!--저작권-->
+        <footer>
+            <div id="footer">
+                <p>
+                    Copyright &copy; <a href="index.html" class="site">ejkim</a> All rights reserved.
+                </p>
+                <span>EMAIL : ouo3_16@naver.com</span>
+            </div>
+        </footer>
+</body>
+</html>
