@@ -3,83 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Homework #2</title>
+    <link rel="stylesheet" href="./css/header.css">
     
     <style>
    * {
             padding: 0;
             margin: 0;
-        }
-        
-        body { font-family: '나눔스퀘어', 'Apple SD Gothic Neo', sans-serif; }
-        
-/*        헤더*/
-        header {
-            max-width: 1920px;
-            padding-bottom: 90px;
-/*            border-bottom: 1px solid #dddddd;*/
-        }
-        
-/*        사이트 이름*/
-        #headA #headA_h1 a {
-            font-family: 'Eras ITC';
-            display: inline-block;
-            line-height: 100px;
-            margin-left: 30px;
-            color: #a3a3ff;
-            font-size: 40px;
-            text-decoration: none;
-        }
-        
-        #headA #headA_h1 a:hover {
-/*            background-color: #fffdc7;*/
-            color: #fffdc7;
-        }
-        
-        #headA {
-            max-width: 1920px;
-            float: left;
-        }
-        
-        #headC {
-            float: right;
-
-        }
-        
-/*        메인 메뉴*/
-        
-        #main_menu {
-            position:relative;
-/*            top:30px;*/
-            font-size:15px;
-            color:#ffffff;
-/*            background-color:#6ac5fd;	*/
-            margin-top:37px;
-            margin-right: 18px;
-            padding:12px;
-        }
-        
-        #main_menu ul {
-            margin: 0;
-            padding: 0;
-            margin-top: 10px;
-        }
-        
-        #main_menu li {
-            list-style-type: none;
-            display: inline-block;
-            padding: 0px 0px 0px 0px;
-            margin-top: 18px;
-        }
-        
-        #main_menu li a {
-            text-decoration: none;
-            color: #000000;
-            padding: 10px;
-        }
-        
-        #main_menu a:hover {
-            color: #a3a3ff;
-            background-color: #fffcd2;
         }
         
         
@@ -197,25 +126,66 @@
 </head>
 <body>
        
-<!--       헤더-->
-        <header>
-            <div id="headA">
-                <h1 id="headA_h1"><a href="index.html" class="site">K!m Eun J!</a></h1>
-            </div>
-            <div id="headC">
-                <ul id="main_menu">
-                    <li><a href="profile.html">Profile</a></li>
-                    <li><a href="hw01.html">HW01</a></li>
-                    <li><a href="hw02.html">HW02</a></li>
-                    <li><a href="hw03.html">HW03</a></li>
-                    <li><a href="hw04.html">HW04</a></li>
-                    <li><a href="hw05.html">HW05</a></li>
-                    <li><a href="hw06.html">HW06</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact Me!</a></li>
-                </ul>
-            </div>
-        </header> 
+<!-- 헤더 -->
+  
+  <div id="headA">
+        <h1 id="headA_h1"><a href="index.html" class="site">K!m Eun J!</a></h1>
+    </div>
+  
+   <header>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="./mid-term.html">Home</a>
+            </li>
+            
+            <li>
+                <a href="./profile.html">About</a>
+            </li>
+            
+            <li class="active sub">
+                <a href="#">Homework</a>
+                <ul>
+               <li class="sub">
+                   <a href="#">HTML</a>
+             <ul>
+                 <li>
+                     <a href="./hw01.html">hw 01</a>
+                 </li>
+                  <li>
+                     <a href="./hw02.html">hw 02</a>
+                 </li>
+                 <li class="last">
+                     <a href="./hw03.html">hw 03</a>
+                 </li>
+             </ul>
+               </li>
+               <li class="sub">
+                   <a href="#">CSS</a>
+                   <ul>
+                       <li>
+                         <a href="./hw04.html">hw 04</a>
+                       </li>
+                       <li>
+                         <a href="./hw05.html">hw 05</a>
+                       </li>
+                       <li class="last">
+                            <a href="./hw06.html">hw 06</a>
+                       </li>
+                   </ul>
+               </li>
+        </ul>
+        </li>
+        <li>
+            <a href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="last">
+            <a href="./contact.html">Contact</a>
+        </li>
+        </ul>
+    </div>
+    </header>
+    <!-- 헤더끝 -->
          
          <div class="clear"></div>
           
